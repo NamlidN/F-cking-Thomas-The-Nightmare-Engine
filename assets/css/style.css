@@ -18,13 +18,12 @@ html:hover #grid{
     animation-delay: 2s;
 }
 #grid{
-    position: relative;
     position: fixed;
     display: grid;
 place-items: center;  
 
  z-index: 1;
- right: -13%;
+ right: -11%;
  top: -1%;
 }
 #anchor{
@@ -52,7 +51,7 @@ place-items: center;
 
    @keyframes asdf{
     from{
-        right:-13%
+        right:-11%
     }
     to{
         right: -5%;

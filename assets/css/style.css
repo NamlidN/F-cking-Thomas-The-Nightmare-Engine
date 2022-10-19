@@ -1,0 +1,60 @@
+
+.carousel-inner{
+    height: 30rem !important;
+
+}
+.a{
+    height: 20rem !important;
+}
+body{
+    color:wheat;
+    background-color: #121212;
+}
+#e{
+  border-radius: 5rem;
+}
+html:hover #grid{
+    animation: asdf 5s forwards;
+    animation-delay: 2s;
+}
+#grid{
+    position: relative;
+    position: fixed;
+    display: grid;
+place-items: center;  
+
+ z-index: 1;
+ right: -13%;
+ top: -1%;
+}
+#anchor{
+     transform: rotate(-45deg);
+    height: 15rem;
+ 
+}
+.container .grid img{
+  
+    transform:translatex(-171px) translatey(-84px);
+   }
+   
+   #eyes, #eyes img{
+    
+    height: 3.1rem;
+    width: 3.1rem;
+    position: absolute;
+    
+   }
+   body:hover .eye{
+    border-radius: 10rem;
+    transition-duration: 0s;
+    background-color: rgba(255, 0, 0, 0.424);
+   }
+
+   @keyframes asdf{
+    from{
+        right:-13%
+    }
+    to{
+        right: -5%;
+    }
+   }
